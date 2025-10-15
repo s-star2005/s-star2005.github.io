@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.test{
+    background-color:blueviolet;
+    border: 0;
+    padding: 100px;
+}
+header{
+    background-color: aqua;
+    padding: 30px;
+}
+header a{
+    color:white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+header ul{
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height: 40px;
+}
+h1{
+    position:absolute;
+    left:120px;
+    top:0;
+    line-height:40px;
+}
+section{
+    background-color: yellow;
+    border: 15px #9d9 dashed;
+    padding: 30px;
+    margin:30px;
+}
+footer{
+    background-color: red;
+}
