@@ -5,19 +5,21 @@
 header{
     background-color: black;
     height: 80px;
-    h1{
-        color: aqua;
-        position:absolute;
-        left: 30px;
-        top:0;
-        line-height: 80px;
-    }
-    ul{
-        position: absolute;
-        right: 20px;
-        top: 0;
-        line-height: 80px;
-    }
+    width: 100%;
+    position: fixed;
+}
+h1{
+    color: aqua;
+    position:absolute;
+    left: 30px;
+    top:0;
+    line-height: 80px;
+}
+ul{
+    position: absolute;
+    right: 20px;
+    top: 0;
+    line-height: 80px;
 }
 header li{
     display: inline;
@@ -33,5 +35,16 @@ header a:hover{
 footer{
     position: absolute;
     top: 100vw;
-    left:50vw;
+    height: 30px;
+    background-color: black;
+    width: 100%;
+}
+footer p{
+    color:aqua;
+    position: absolute;
+    left: 50vw;
+}
+main{
+    position: absolute;
+    top:5vw;
 }
