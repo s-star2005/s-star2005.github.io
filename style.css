@@ -34,17 +34,40 @@ header a:hover{
 }
 footer{
     position: absolute;
-    top: 100vw;
     height: 30px;
     background-color: black;
     width: 100%;
+    bottom: 0;
 }
 footer p{
     color:aqua;
     position: absolute;
-    left: 50vw;
+    left: 50%;
+    transform: translateX(-50%);
 }
 main{
     position: absolute;
     top:80px;
+}
+.menu{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    header ul{
+        display: none;
+    }
+    header h1{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .menu{
+        display: block;
+        background-color: transparent;
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        left: 20px;
+        top: 15px;
+        border: none;
+    }
 }
