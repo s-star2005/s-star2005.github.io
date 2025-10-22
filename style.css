@@ -9,9 +9,9 @@ header{
     position: fixed;
 }
 h1{
-    color: aqua;
+    color:cornflowerblue;
     position:absolute;
-    left: 30px;
+    left: 80px;
     top:0;
     line-height: 80px;
 }
@@ -70,4 +70,18 @@ main{
         top: 15px;
         border: none;
     }
+}
+#Leetcode a{
+    color: blueviolet;
+    text-decoration: none;
+}
+#Leetcode li{
+    position: relative;
+    line-height: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    left: 0;
+}
+#Leetcode li:hover{
+    text-decoration: underline;
 }
